@@ -1,0 +1,62 @@
+.admin-wrapper{
+	width:590px;
+	height:490px;
+	background:#eff3f7;
+	position:absolute;
+	top:50%;
+	left:50%;
+	margin-left:-295px;
+	margin-top:-245px;
+	text-align:center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	overflow:hidden;
+	-webkit-box-shadow: 0px 7px 22px 0px rgba(50, 50, 50, 0.5);
+-moz-box-shadow:    0px 7px 22px 0px rgba(50, 50, 50, 0.5);
+box-shadow:         0px 7px 22px 0px rgba(50, 50, 50, 0.5);
+}
+.admin-wrapper .admin-content p{
+	font-family: 'fira_sanslight';
+	font-size: 2em;
+	color: #a3a7b4;
+	margin-top:10px;
+}
+.admin-wrapper .admin-content h3 {
+	text-align: center;
+	color: white;
+	font-family: 'fira_sansbook';
+	font-size: 2em;
+	background: #48cbe8;
+	padding: 20px 0px;
+	border-bottom: 20px solid #67dffa;
+}
+.admin-wrapper .admin-content input[type=text], .admin-wrapper .admin-content input[type=password]{
+	width: 170px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	border: 1px solid #48cbe8;
+	padding: 20px 233px 10px 20px;
+	font-family: 'fira_sanslight';
+	font-size: 0.9em;
+	color: #48cbe8;
+	background: #FBFCFD;
+}
+.admin-wrapper .admin-content .btn-send {
+	color: white;
+	margin-top:30px;
+	font-family: 'fira_sansbook';
+	font-size: 2em;
+	padding: 4px 65px;
+	display: inline-block;
+	cursor: pointer;
+	background-color: #48cbe8;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	border: 1px solid #48cbe8;
+	-webkit-box-shadow: 0px 2px 0px 0px #3ba8c0;
+	-moz-box-shadow: 0px 2px 0px 0px #3ba8c0;
+	box-shadow: 0px 2px 0px 0px #3ba8c0;
+}
